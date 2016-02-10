@@ -1,0 +1,337 @@
+application: rguktwebsite
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+# Handlers match in order, put above the default handler.
+handlers:
+
+- url: /vc.html
+  static_files: vc.html
+  upload: vc.html
+
+- url: /maths.html
+  static_files: maths.html
+  upload: maths.html
+
+- url: /hss.html
+  static_files: hss.html
+  upload: hss.html
+
+- url: /chemistry.html
+  static_files: chemistry.html
+  upload: chemistry.html
+
+- url: /physics.html
+  static_files: physics.html
+  upload: physics.html
+
+- url: /schoolmng.html
+  static_files: schoolmng.html
+  upload: schoolmng.html
+
+- url: /me.html
+  static_files: me.html
+  upload: me.html
+
+- url: /mme.html
+  static_files: mme.html
+  upload: mme.html
+
+
+- url: /mechanicalsyllabus.html
+  static_files: mechanicalsyllabus.html
+  upload: mechanicalsyllabus.html
+
+- url: /ecesyllabus.html
+  static_files: ecesyllabus.html
+  upload: ecesyllabus.html
+
+- url: /pla-inftocomp.html
+  static_files: pla-inftocomp.html
+  upload: pla-inftocomp.html
+
+- url: /pla-inftostu.html
+  static_files: pla-inftostu.html
+  upload: pla-inftostu.html
+
+- url: /reachus.html
+  static_files: reachus.html
+  upload: reachus.html
+
+- url: /convocation.html
+  static_files: convocation.html
+  upload: convocation.html
+
+- url: /pla-internships.html
+  static_files: pla-internships.html
+  upload: pla-internships.html
+
+- url: /topper2015.html
+  static_files: topper2015.html
+  upload: topper2015.html
+
+- url: /antahpragnya2k16.html
+  static_files: antahpragnya2k16.html
+  upload: antahpragnya2k16.html
+
+
+- url: /placementprocedure.html
+  static_files: placementprocedure.html
+  upload: placementprocedure.html
+
+- url: /registrar.html
+  static_files: registrar.html
+  upload: registrar.html
+
+- url: /cd.html
+  static_files: cd.html
+  upload: cd.html
+
+- url: /mtechcomengg.html
+  static_files: mtechcomengg.html
+  upload: mtechcomengg.html
+
+- url: /gc.html
+  static_files: gc.html
+  upload: gc.html
+
+- url: /mme-faculty.html
+  static_files: mme-faculty.html
+  upload: mme-faculty.html
+
+- url: /stu-edurgukt.html
+  static_files: stu-edurgukt.html
+  upload: stu-edurgukt.html
+
+- url: /stu-campuslife.html
+  static_files: stu-campuslife.html
+  upload: stu-campuslife.html
+
+- url: /mme-faculty-kirankumarprofile.html
+  static_files: mme-faculty-kirankumarprofile.html
+  upload: mme-faculty-kirankumarprofile.html
+
+- url: /che-faculty.html
+  static_files: che-faculty.html
+  upload: che-faculty.html
+
+- url: /cse-faculty.html
+  static_files: cse-faculty.html
+  upload: cse-faculty.html
+
+- url: /eee-faculty.html
+  static_files: eee-faculty.html
+  upload: eee-faculty.html
+
+- url: /ece-faculty.html
+  static_files: ece-faculty.html
+  upload: ece-faculty.html
+
+- url: /maths-faculty.html
+  static_files: maths-faculty.html
+  upload: maths-faculty.html
+
+- url: /civil-faculty.html
+  static_files: civil-faculty.html
+  upload: civil-faculty.html
+
+- url: /me-faculty.html
+  static_files: me-faculty.html
+  upload: me-faculty.html
+
+- url: /physics-faculty.html
+  static_files: physics-faculty.html
+  upload: physics-faculty.html
+
+- url: /schoolmng-faculty.html
+  static_files: schoolmng-faculty.html
+  upload: schoolmng-faculty.html
+
+- url: /english-faculty.html
+  static_files: english-faculty.html
+  upload: english-faculty.html
+
+- url: /chemistry-faculty.html
+  static_files: chemistry-faculty.html
+  upload: chemistry-faculty.html
+
+- url: /telugu.html
+  static_files: telugu.html
+  upload: telugu.html
+
+- url: /sdcell.html
+  static_files: sdcell.html
+  upload: sdcell.html
+
+- url: /administration.html
+  static_files: administration.html
+  upload: administration.html
+
+- url: /pucsyllabus.html
+  static_files: pucsyllabus.html
+  upload: pucsyllabus.html
+
+- url: /chemicalsyllabus.html
+  static_files: chemicalsyllabus.html
+  upload: chemicalsyllabus.html
+
+- url: /civilsyllabus.html
+  static_files: civilsyllabus.html
+  upload: civilsyllabus.html
+
+- url: /csesyllabus.html
+  static_files: csesyllabus.html
+  upload: csesyllabus.html
+
+- url: /bio-sciences.html
+  static_files: bio-sciences.html
+  upload: bio-sciences.html
+
+- url: /bio-sciences-faculty.html
+  static_files: bio-sciences-faculty.html
+  upload: bio-sciences-faculty.html
+
+- url: /mme-faculty-rajagopalacharyprofile.html
+  static_files: mme-faculty-rajagopalacharyprofile.html
+  upload: mme-faculty-rajagopalacharyprofile.html
+
+
+- url: /mme-faculty-nagalakshmiprofile.html
+  static_files: mme-faculty-nagalakshmiprofile.html
+  upload: mme-faculty-nagalakshmiprofile.html
+
+
+- url: /mme-faculty-kirankumarprofile.html
+  static_files: mme-faculty-kirankumarprofile.html
+  upload: mme-faculty-kirankumarprofile.html
+
+- url: /mme-faculty-maheshprofile.html
+  static_files: mme-faculty-maheshprofile.html
+  upload: mme-faculty-maheshprofile.html
+
+
+- url: /mmesyllabus.html
+  static_files: mmesyllabus.html
+  upload: mmesyllabus.html
+
+- url: /mme-faculty-ajaykumarprofile.html
+  static_files: mme-faculty-ajaykumarprofile.html
+  upload: mme-faculty-ajaykumarprofile.html
+
+
+- url: /ce.html
+  static_files: ce.html
+  upload: ce.html
+
+- url: /nss.html
+  static_files: nss.html
+  upload: nss.html
+
+- url: /eee.html
+  static_files: eee.html
+  upload: eee.html
+
+- url: /rti.html
+  static_files: rti.html
+  upload: rti.html
+
+- url: /ece.html
+  static_files: ece.html
+  upload: ece.html
+
+- url: /cse.html
+  static_files: cse.html
+  upload: cse.html
+
+- url: /che.html
+  static_files: che.html
+  upload: che.html
+
+- url: /departments.html
+  static_files: departments.html
+  upload: departments.html
+
+- url: /academiccalender.html
+  static_files: academiccalender.html
+  upload: academiccalender.html
+
+- url: /curricula.html
+  static_files: curricula.html
+  upload: curricula.html
+
+- url: /academicprogrammes.html
+  static_files: academicprogrammes.html
+  upload: academicprogrammes.html
+
+- url: /academicprogrammes-ug.html
+  static_files: academicprogrammes-ug.html
+  upload: academicprogrammes-ug.html
+
+
+
+- url: /hub.html
+  static_files: hub.html
+  upload: hub.html
+
+
+- url: /contactus.html
+  static_files: contactus.html
+  upload: contactus.html
+
+- url: /(.*\.(pdf|gif|png|jpg|ico|js|css|0|@))
+  static_files: \1
+  upload: (.*\.(pdf|gif|png|jpg|ico|js|css|0|@))
+
+
+
+- url: /(.*\.woff)
+  mime_type: application/x-font-woff
+  static_files: \1
+  upload: (.*\.woff)
+
+- url: /(.*\.(svg|svgz))
+  mime_type: images/svg+xml
+  static_files: \1
+  upload: (.*\.(svg|svgz))
+
+- url: /(.*\.eot)
+  mime_type: application/vnd.ms-fontobject
+  static_files: \1
+  upload: (.*\.eot)
+
+
+- url: /(.*\.ttf)
+  mime_type: font/truetype
+  static_files: \1
+  upload: (.*\.ttf)
+
+
+- url: /(.*\.otf)
+  mime_type: font/opentype
+  static_files: \1
+  upload: (.*\.otf)
+
+
+
+
+# For folders without trailing slashes - ideally a 301 redirect, but we're static & it isn't 2004
+- url: /([^\.]+)([^/])
+  static_files: assets/\1\2/index.html
+  upload: assets/(.+)
+
+# Redirect Everything else
+- url: /(.+)
+  static_files: assets/\1
+  upload: assets/(.+)
+
+
+- url: /.*
+  script: guestbook.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest

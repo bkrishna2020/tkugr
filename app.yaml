@@ -17,42 +17,6 @@ handlers:
   upload: public/index.html
 
 
-- url: /(.*\.(pdf|gif|png|jpg|ico|js|css|0|@))
-  static_files: \1
-  upload: (.*\.(pdf|gif|png|jpg|ico|js|css|0|@))
-
-
-
-- url: /(.*\.woff)
-  mime_type: application/x-font-woff
-  static_files: \1
-  upload: (.*\.woff)
-
-- url: /(.*\.(svg|svgz))
-  mime_type: images/svg+xml
-  static_files: \1
-  upload: (.*\.(svg|svgz))
-
-- url: /(.*\.eot)
-  mime_type: application/vnd.ms-fontobject
-  static_files: \1
-  upload: (.*\.eot)
-
-
-- url: /(.*\.ttf)
-  mime_type: font/truetype
-  static_files: \1
-  upload: (.*\.ttf)
-
-
-- url: /(.*\.otf)
-  mime_type: font/opentype
-  static_files: \1
-  upload: (.*\.otf)
-
-
-
-
 # For folders without trailing slashes - ideally a 301 redirect, but we're static & it isn't 2004
 - url: /([^\.]+)([^/])
   static_files: assets/\1\2/index.html

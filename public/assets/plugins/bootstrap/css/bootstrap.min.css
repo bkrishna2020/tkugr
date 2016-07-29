@@ -3301,6 +3301,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 .nav>li>a>img {
 	max-width:none
 }
+
 .nav-tabs {
 	border-bottom:1px solid #ddd
 }
@@ -3428,6 +3429,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 .tab-content>.tab-pane {
 	display:none
+        
 }
 .tab-content>.active {
 	display:block

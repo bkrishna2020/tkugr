@@ -282,6 +282,7 @@ ul.custom-list-style li {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+
 .nav-tabs {
   border-bottom: none;
   position: relative;
@@ -993,6 +994,7 @@ ul.custom-list-style li {
 }
 .flexslider .flex-control-nav {
   bottom: -35px;
+  margin-bottom: 70px;
 }
 .flexslider .flex-control-paging li a {
   background: #a1a1a1;

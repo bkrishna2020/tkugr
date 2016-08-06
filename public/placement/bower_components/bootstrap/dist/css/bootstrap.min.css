@@ -144,9 +144,7 @@ optgroup {
 }
 table {
 	border-spacing:0;
-	border-collapse:collapse;
-  table-layout: fixed; 
-	width: 100%;
+	border-collapse:collapse
 }
 td,th {
 	padding:0
@@ -212,7 +210,6 @@ td,th {
 	.table-bordered th,.table-bordered td {
 		border:1px solid #ddd!important
 	}
-	
 }
 @font-face {
 	font-family:'Glyphicons Halflings';
@@ -1892,7 +1889,6 @@ pre code {
 }
 table {
 	background-color:transparent
-	 table-layout:fixed;
 }
 caption {
 	padding-top:8px;
@@ -1932,7 +1928,6 @@ th {
 }
 .table-bordered {
 	border:1px solid #ddd
-	
 }
 .table-bordered>thead>tr>th,.table-bordered>tbody>tr>th,.table-bordered>tfoot>tr>th,.table-bordered>thead>tr>td,.table-bordered>tbody>tr>td,.table-bordered>tfoot>tr>td {
 	border:1px solid #ddd

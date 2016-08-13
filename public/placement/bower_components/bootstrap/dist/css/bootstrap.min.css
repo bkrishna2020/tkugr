@@ -144,10 +144,11 @@ optgroup {
 }
 table {
 	border-spacing:0;
-	border-collapse:collapse
+	border-collapse:collapse;
+
 }
 td,th {
-	padding:0
+	padding:10px
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print {
 	*,:before,:after {
@@ -1925,6 +1926,9 @@ th {
 }
 .table-condensed>thead>tr>th,.table-condensed>tbody>tr>th,.table-condensed>tfoot>tr>th,.table-condensed>thead>tr>td,.table-condensed>tbody>tr>td,.table-condensed>tfoot>tr>td {
 	padding:5px
+}
+.table-nobordered {
+	border:none
 }
 .table-bordered {
 	border:1px solid #ddd

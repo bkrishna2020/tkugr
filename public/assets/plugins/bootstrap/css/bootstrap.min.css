@@ -3634,8 +3634,8 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 		float:left
 	}
 	.navbar-nav>li>a {
-		padding-top:15px;
-		padding-bottom:15px
+		padding-top:9px;
+		padding-bottom:9px
 	}
 }
 .navbar-form {

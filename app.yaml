@@ -8,6 +8,9 @@ threadsafe: true
 
 # Handlers match in order, put above the default handler.
 handlers:
+- url: /(.*)/
+  static_files: public/\1/index.html
+  upload: public/(.*)/index.html
 
 - url: /(.+)
   static_files: public/\1

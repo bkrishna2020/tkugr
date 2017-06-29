@@ -1,0 +1,264 @@
+#gototop{bottom: 24px; right: 24px;cursor:pointer;position: fixed;}
+.footer.segment {
+      padding: 3em 0em;
+    }
+.footer-copyright{overflow:hidden;height:50px;line-height:50px;color:rgba(255,255,255,0.8);background-color:rgba(51,51,51,0.08)}
+.backColor{background-color: #607d8b !important;}/*this is for navbar,footer,tabs background color */ //#133c50 !important
+.icon{
+padding-left: 10px;
+padding-top: 1px;
+}
+#SIPTar,#GuidelinesTar,#InvolvementTar,#ArrangementsTar,#ReportingTar,#AfterReportingTar,#DuringInternTar,#VisionTar,#MissionTar,#VCMessageTar,#TPOMessageTar,#FICMessageTar,#AboutRGUKTTar,#PlacementOfficeTar,#PlacementOfficeTar,#BoardingRecruitersTar,#OfficeAddressTar,#TPStaffTar,#OfficersonChargeTar,#GetinTouchTar,#objective,#CampusPlacements,#CPOneTarget,#CPTwoTarget,#CPThreeTarget,#CPFourTarget,#CPFiveTarget,#CPSixTarget,#CPSevenTarget,#CPEightTarget,#CPNineTarget{cursor: pointer;}
+.backColor700{
+	background-color:#455a64 !important;
+	color: white;
+}
+.ui.segment p{padding:5px;text-align: justify; font-size: 1.2rem;}
+.ui.grid .three.wide.column .menu > .item{color: white !important;}
+.ui.grid .three.wide.column .menu > .item:hover{color: rgba(255,255,255,1) !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
+.ui.sidebar .menu > .item:hover{color: rgba(255,255,255,1) !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
+.activeClass{color: rgba(255,255,255,1) !important;font-variant: small-caps;margin-left: 5px;border-left:	2px solid pink;}
+.ui.menu .ui.dropdown .menu{padding: 10px}	
+.ui.menu .ui.dropdown .menu > .item{color: rgba(255,255,255,0.8) !important;}
+.ui.menu .ui.dropdown .menu > .item:hover{color: rgba(255,255,255,1) !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
+.textind1cm{
+text-indent: 1cm;font-size:1.2rem;text-align:justify;
+	}
+.ui.inverted.menu .item, .ui.inverted.menu .item > a:not(.ui) {
+    color: rgba(255,255,255,1);
+}
+#placementEvents{font-size:.8rem;text-align:justify;}
+.ui.menu .item::before{background:transparent;}
+#placementEvents li{padding:5px 0;border-bottom:1px dotted;}
+
+/**********************************
+carousel 
+**********************************/
+.carousel{position:relative}
+.carousel-inner{position:relative;width:100%;overflow:hidden}
+.carousel-item{position:relative;display:none;width:100%}
+@media (-webkit-transform-3d){
+	.carousel-item{-webkit-transition:-webkit-transform .6s ease-in-out;transition:-webkit-transform .6s ease-in-out;-o-transition:-o-transform .6s ease-in-out;transition:transform .6s ease-in-out;transition:transform .6s ease-in-out,-webkit-transform .6s ease-in-out,-o-transform .6s ease-in-out;-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;-webkit-perspective:1000px;perspective:1000px}}
+	@supports ((-webkit-transform:translate3d(0,0,0)) or (transform:translate3d(0,0,0)))
+	{.carousel-item{-webkit-transition:-webkit-transform .6s ease-in-out;transition:-webkit-transform .6s ease-in-out;-o-transition:-o-transform .6s ease-in-out;transition:transform .6s ease-in-out;transition:transform .6s ease-in-out,-webkit-transform .6s ease-in-out,-o-transform .6s ease-in-out;-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;-webkit-perspective:1000px;perspective:1000px}
+	.carousel-item-next,.carousel-item-prev,.carousel-item.active{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+	.carousel-item-next,.carousel-item-prev{position:absolute;top:0}
+	@media (-webkit-transform-3d){.carousel-item-next.carousel-item-left,.carousel-item-prev.carousel-item-right{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.active.carousel-item-right,.carousel-item-next{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}.active.carousel-item-left,.carousel-item-prev{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}
+	@supports ((-webkit-transform:translate3d(0,0,0)) or (transform:translate3d(0,0,0)))
+	{.carousel-item-next.carousel-item-left,.carousel-item-prev.carousel-item-right{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+	.active.carousel-item-right,.carousel-item-next{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+	.active.carousel-item-left,.carousel-item-prev{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+	.carousel-control-next,.carousel-control-prev{position:absolute;top:0;bottom:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:15%;color:#fff;text-align:center;opacity:.5}
+	.carousel-control-next:focus,.carousel-control-next:hover,.carousel-control-prev:focus,.carousel-control-prev:hover{color:#fff;text-decoration:none;outline:0;opacity:.9}
+	.carousel-control-prev{left:0}
+	.carousel-control-next{right:0}
+	.carousel-control-next-icon,.carousel-control-prev-icon{display:inline-block;width:20px;height:20px;background:transparent no-repeat center center;-webkit-background-size:100% 100%;background-size:100% 100%}
+	.carousel-control-prev-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")}
+	.carousel-control-next-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")}
+	.carousel-indicators{position:absolute;right:0;bottom:10px;left:0;z-index:15;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding-left:0;margin-right:15%;margin-left:15%;list-style:none}
+	.carousel-indicators li{position:relative;-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;max-width:30px;height:3px;margin-right:3px;margin-left:3px;text-indent:-999px;cursor:pointer;background-color:rgba(255,255,255,.5)}
+	.carousel-indicators li::before{position:absolute;top:-10px;left:0;display:inline-block;width:100%;height:10px;content:""}
+	.carousel-indicators li::after{position:absolute;bottom:-10px;left:0;display:inline-block;width:100%;height:10px;content:""}
+	.carousel-indicators .active{background-color:#fff}
+	.carousel-caption{position:absolute;right:15%;bottom:20px;left:15%;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center}
+	
+
+/*************************************
+ * generic styling for ALS elements
+ ************************************/
+
+.als-container {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+	z-index: 0;
+}
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+.als-wrapper {
+	position: relative;
+	list-style: none;
+}
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
+
+/*.als-prev:hover, .als-next:hover{background-color: teal}
+*/
+/*************************************
+ * specific styling for #demo3
+ ************************************/
+
+#demo3 {
+	margin: 0px auto;
+	padding:20px;
+}
+
+#demo3 .als-item {
+	margin: 0px 5px;
+	height:10%
+	padding: 4px 0px;
+	text-align: center;
+}
+
+#demo3 .als-item img {
+	width: 130px;
+	display: block;
+	padding-right:50px;
+	padding-bottom:15px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+#demo3 .als-prev, #demo3 .als-next {
+	top: 40px;
+}
+
+#demo3 .als-prev{
+	left: 60px;
+}
+#demo3 .als-next{
+	right: 60px;
+}
+
+#demo2 {
+	margin: 0px auto;
+	font-size: .8rem;	
+}
+
+#demo2 .als-item {
+	height:10%;
+	border-bottom:1px dotted blue;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#demo2 .als-prev{
+	right: 60px;
+}
+#demo2 .als-next{
+	right: 20px;
+}
+
+	
+/****************
+Preloader 
+*****************/
+ div.image-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+.image-wrapper img {
+  display: block;
+}
+#test {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  border-top: none;
+}
+#test p {
+  width: 100%;
+  font-family: segoe;
+  font-size: 12px;
+  text-align: center;
+  color: #000;
+  opacity: 80%;
+}	
+/****************
+Left borders
+*****************/
+.ui .segment .redL{border-left: 2px solid #DB2828;; }
+.ui .segment .orangeL{border-left: 2px solid #FE9A76; }
+.ui .segment .yellowL{border-left: 2px solid #FFD700; }
+.ui .segment .oliveL{border-left: 2px solid #32CD32; }
+.ui .segment .greenL{border-left: 2px solid #21BA45; }
+.ui .segment .tealL{border-left: 2px solid #00B5AD; }
+.ui .segment .blueL{border-left: 2px solid #2185D0; }
+.ui .segment .violetL{border-left: 2px solid #6435C9; }
+.ui .segment .purpleL{border-left: 2px solid #A333C8; }
+.ui .segment .pinkL{border-left: 2px solid #E03997; }
+.ui .segment .brownL{border-left: 2px solid #A52A2A; }
+.ui .segment .greyL{border-left: 2px solid #A5673F; }
+.ui .segment .blackL{border-left: 2px solid  #000000; }
+
+/***********
+For adjusting image on carousel depends on width of the device
+************/
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+.carousel-item > img{
+width: 20rem;;
+height: 15rem;
+}
+.carousel-item{
+height: 15em;
+}
+}
+@media (m-width:481px)  {	 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+.carousel-item > img{
+width: 15rem;;
+height: 15rem;
+}
+.carousel-item{
+height: 15em;
+}
+ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+.carousel-item > img{
+width: 20rem;;
+height: 22rem;
+}
+.carousel-item{
+height: 22em;
+}
+ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+.carousel-item > img{
+width: 20rem;;
+height: 22rem;
+}
+.carousel-item{
+height: 22em;
+}
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+.carousel-item > img{
+height: 27.5rem;
+}
+.carousel-item{
+height: 27.5em;
+}
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+.carousel-item > img{
+width: 20rem;;
+height: 27.5rem;
+}
+.carousel-item{
+height: 27.5em;
+}
+ }
+	

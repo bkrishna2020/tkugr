@@ -103,6 +103,21 @@ $('#ay14-15Tar').click(function () {goThere("#ay14-15Tar")})
 $('#ay13-14').click(function () {goThere("#ay13-14Tar")})
 $('#ay13-14Tar').click(function () {goThere("#ay13-14Tar")})
 
+$('#Civil').click(function () { goThere("#CivilTar"); })
+$('#CivilTar').click(function () { goThere("#CivilTar"); })
+$('#Che').click(function () { goThere("#CheTar"); })
+$('#CheTar').click(function () { goThere("#CheTar"); })
+$('#MME').click(function () { goThere("#MMETar"); })
+$('#MMETar').click(function () { goThere("#MMETar"); })
+$('#CSE').click(function () { goThere("#CSETar"); })
+$('#CSETar').click(function () { goThere("#CSETar"); })
+$('#ECE').click(function () { goThere("#ECETar"); })
+$('#ECETar').click(function () { goThere("#ECETar"); })
+$('#ME').click(function () { goThere("#METar"); })
+$('#METar').click(function () { goThere("#METar"); })
+
+
+
 function goThere(obj){
 $('html, body').animate({
         scrollTop: $(obj).offset().top-85

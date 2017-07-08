@@ -42,12 +42,12 @@ $("#CPSixTarSix").click(function() {goThere("#CPSixTarget");});
 $("#CPSeven").click(function() {goThere("#CPSevenTarget");});
 $("#CPSevenTarget").click(function() {goThere("#CPSevenTarget");});
 $("#CPSevenTarSeven").click(function() {goThere("#CPSevenTarget");});
-$("#CPEight").click(function() {goThere("#CPEightTarget");});
-$("#CPEightTarget").click(function() {goThere("#CPEightTarget");});
-$("#CPEightTarEight").click(function() {goThere("#CPEightTarget");});
-$("#CPNine").click(function() {goThere("#CPNineTarget");});
-$("#CPNineTarget").click(function() {goThere("#CPNineTarget");});
-$("#CPNineTarNine").click(function() {goThere("#CPNineTarget");});
+//$("#CPEight").click(function() {goThere("#CPEightTarget");});
+//$("#CPEightTarget").click(function() {goThere("#CPEightTarget");});
+//$("#CPEightTarEight").click(function() {goThere("#CPEightTarget");});
+//$("#CPNine").click(function() {goThere("#CPNineTarget");});
+//$("#CPNineTarget").click(function() {goThere("#CPNineTarget");});
+//$("#CPNineTarNine").click(function() {goThere("#CPNineTarget");})
 
 $("#scrollTop").click(function() {$('html, body').animate({scrollTop:0}, 'slow'); });
 

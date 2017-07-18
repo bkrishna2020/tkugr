@@ -14678,6 +14678,7 @@ ol.ui.list li[value]:before {
 	transition:box-shadow .1s ease,transform .1s ease,-webkit-transform .1s ease;
 	z-index:''
 }
+
 .ui.card {
 	margin:1em 0
 }

@@ -42,12 +42,27 @@ $("#CPSixTarSix").click(function() {goThere("#CPSixTarget");});
 $("#CPSeven").click(function() {goThere("#CPSevenTarget");});
 $("#CPSevenTarget").click(function() {goThere("#CPSevenTarget");});
 $("#CPSevenTarSeven").click(function() {goThere("#CPSevenTarget");});
-//$("#CPEight").click(function() {goThere("#CPEightTarget");});
-//$("#CPEightTarget").click(function() {goThere("#CPEightTarget");});
-//$("#CPEightTarEight").click(function() {goThere("#CPEightTarget");});
-//$("#CPNine").click(function() {goThere("#CPNineTarget");});
-//$("#CPNineTarget").click(function() {goThere("#CPNineTarget");});
-//$("#CPNineTarNine").click(function() {goThere("#CPNineTarget");})
+$("#CPEight").click(function() {goThere("#CPEightTarget");});
+$("#CPEightTarget").click(function() {goThere("#CPEightTarget");});
+$("#CPEightTarEight").click(function() {goThere("#CPEightTarget");});
+$("#CPNine").click(function() {goThere("#CPNineTarget");});
+$("#CPNineTarget").click(function() {goThere("#CPNineTarget");});
+$("#CPNineTarNine").click(function() {goThere("#CPNineTarget");})
+$("#CPTen").click(function() {goThere("#CPTenTarget");});
+$("#CPTenTarget").click(function() {goThere("#CPTenTarget");});
+$("#CPTenTarTen").click(function() {goThere("#CPTenTarget");})
+$("#CPEleven").click(function() {goThere("#CPElevenTarget");});
+$("#CPElevenTarget").click(function() {goThere("#CPElevenTarget");});
+$("#CPElevenTarEleven").click(function() {goThere("#CPElevenTarget");})
+$("#CPTwelve").click(function() {goThere("#CPTwelveTarget");});
+$("#CPTwelveTarget").click(function() {goThere("#CPTwelveTarget");});
+$("#CPTwelveTarTwelve").click(function() {goThere("#CPTwelveTarget");})
+$("#CPThirteen").click(function() {goThere("#CPThirteenTarget");});
+$("#CPThirteenTarget").click(function() {goThere("#CPThirteenTarget");});
+$("#CPThirteenTarThirteen").click(function() {goThere("#CPThirteenTarget");})
+$("#CPFourteen").click(function() {goThere("#CPFourteenTarget");});
+$("#CPFourteenTarget").click(function() {goThere("#CPFourteenTarget");});
+$("#CPFourteenTarFourteen").click(function() {goThere("#CPFourteenTarget");})
 
 $("#scrollTop").click(function() {$('html, body').animate({scrollTop:0}, 'slow'); });
 

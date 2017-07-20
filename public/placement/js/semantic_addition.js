@@ -93,6 +93,10 @@ $('#FICMessageTar').click(function () { goThere("#FICMessageTar"); })
 $('#AboutRGUKT').click(function () { goThere("#AboutRGUKTTar"); })
 $('#AboutRGUKTTar').click(function () { goThere("#AboutRGUKTTar"); })
 
+$('#BTech').click(function () { goThere("#BTechTar"); })
+$('#BTechTar').click(function () { goThere("#BTechTar"); })
+$('#MTech').click(function () { goThere("#MTechTar"); })
+$('#MTechTar').click(function () { goThere("#MTechTar"); })
 
 $('#DuringIntern').click(function () { goThere("#DuringInternTar"); })
 $('#DuringInternTar').click(function () { goThere("#DuringInternTar"); })

@@ -2,7 +2,7 @@
 .footer.segment {
       padding: 3em 0em;
     }
-.footer-copyright{overflow:hidden;height:50px;line-height:50px;color:rgba(255,255,255,0.8);background-color:rgba(51,51,51,0.08)}
+.footer-copyright{overflow:hidden;height:50px;line-height:50px;color:#FFF;background-color:rgba(51,51,51,0.08)}
 .backColor{background-color: #00695c !important;}/*this is for navbar,footer,tabs background color #607d8b  */ //#133c50 !important
 .icon{
 padding-left: 10px;
@@ -11,23 +11,23 @@ padding-top: 1px;
 #SIPTar,#GuidelinesTar,#InvolvementTar,#ArrangementsTar,#ReportingTar,#AfterReportingTar,#DuringInternTar,#VisionTar,#MissionTar,#VCMessageTar,#TPOMessageTar,#FICMessageTar,#AboutRGUKTTar,#PlacementOfficeTar,#PlacementOfficeTar,#BoardingRecruitersTar,#OfficeAddressTar,#TPStaffTar,#OfficersonChargeTar,#GetinTouchTar,#objective,#CampusPlacements,#CPOneTarget,#CPTwoTarget,#CPThreeTarget,#CPFourTarget,#CPFiveTarget,#CPSixTarget,#CPSevenTarget,#CPEightTarget,#CPNineTarget{cursor: pointer;}
 .backColor700{
 	background-color:#00695c !important; /*and submenu color #455a64*/
-	color: white;
+	color: #FFF;
 }
 .ui.segment p{padding:5px;text-align: justify; font-size: 1.2rem;}
-.ui.grid .three.wide.column .menu > .item{color: white !important;}
-.ui.grid .three.wide.column .menu > .item:hover{color: rgba(255,255,255,1) !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
-.ui.sidebar .menu > .item:hover{color: rgba(255,255,255,1) !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
-.activeClass{color: rgba(255,255,255,1) !important;font-variant: small-caps;margin-left: 5px;border-left:	2px solid pink;}
+.ui.grid .three.wide.column .menu > .item{color: #fff !important;}
+.ui.grid .three.wide.column .menu > .item:hover{color: #fff !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
+.ui.sidebar .menu > .item:hover{color: #fff !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
+.activeClass{color: #FFF !important;font-variant: small-caps;margin-left: 5px;border-left:	2px solid pink;}
 .ui.menu .ui.dropdown .menu{padding: 10px}	
-.ui.menu .ui.dropdown .menu > .item{color: rgba(255,255,255,0.8) !important;}
-.ui.menu .ui.dropdown .menu > .item:hover{color: rgba(255,255,255,1) !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
+.ui.menu .ui.dropdown .menu > .item{color: #FFF !important;}
+.ui.menu .ui.dropdown .menu > .item:hover{color: #FFF !important;font-variant: small-caps;margin-left: 5px;border-left:2px solid pink;}
 
 
 .textind1cm{
 text-indent: 1cm;font-size:1.2rem;text-align:justify;
 	}
 .ui.inverted.menu .item, .ui.inverted.menu .item > a:not(.ui) {
-    color: rgba(255,255,255,1);
+    color: #FFF;
 }
 #placementEvents{font-size:.8rem;text-align:justify;}
 .ui.menu .item::before{background:transparent;}

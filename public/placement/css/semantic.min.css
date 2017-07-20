@@ -8497,7 +8497,7 @@ a.ui.basic.label:hover {
 	color:rgba(0,0,0,.95)
 }
 .ui.inverted.link.list .item,.ui.inverted.link.list .item a:not(.ui),.ui.inverted.link.list a.item {
-	color:rgba(255,255,255,.5)
+	color:#FFF;
 }
 .ui.inverted.link.list .active.item a:not(.ui),.ui.inverted.link.list .item a:not(.ui):active,.ui.inverted.link.list .item a:not(.ui):hover,.ui.inverted.link.list a.active.item,.ui.inverted.link.list a.item:active,.ui.inverted.link.list a.item:hover {
 	color:#fff
@@ -13007,7 +13007,7 @@ ol.ui.list li[value]:before {
 	background:rgba(255,255,255,.08)
 }
 .ui.vertical.inverted.menu .menu .item,.ui.vertical.inverted.menu .menu .item a:not(.ui) {
-	color:rgba(255,255,255,.5)
+	color:white;
 }
 .ui.inverted.menu .header.item {
 	margin:0;

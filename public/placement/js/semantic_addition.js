@@ -165,7 +165,11 @@ $(function () {
 			else if(name.toLowerCase()=="training-internship.html"){
 			//alert($('#fixDivCon').width());				
 				$('#fixDivCon').css({position: 'fixed', top:'70px' ,left:"40%",border:'1px solid pink'});    
-			}    
+			}
+			else if(name.toLowerCase()=="campus-life.html"){
+			//alert($('#fixDivCon').width());				
+				$('#fixDivCon').css({position: 'fixed', top:'70px' ,left:"49%",border:'1px solid pink'});    
+			}      
 			else{
 				 $('#fixDivCon').css({position: 'fixed', top:'70px' ,left:"59%",border:'1px solid pink'});
 			} 

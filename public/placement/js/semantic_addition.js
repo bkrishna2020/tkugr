@@ -1,14 +1,13 @@
 // method runs after full site is fetched(runs after docuement ready function). body will be show and preloader will be hide  
 $(window).on('load', function() { // makes sure the whole site is loaded 
 //$('#test').fadeOut(); // will first fade out the loading animation 
-$('.image-wrapper').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-$('.bodycontent').delay(450).fadeIn('slow');
+//$('.image-wrapper').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+$('.bodycontent').delay(400).fadeIn('fast');
 });	
 
 //Intially run this method on url fetch. Intially body content will be in hide, only preloader will be in vishible
 $(document).ready(function(){ 
 		$('.bodycontent').hide();//intially body will be hidden mode
-      $('.image-wrapper').show();//preloader will show here 
       $('#gototop').hide();
       $('#gototop').click(function(){
       $('html, body').animate({scrollTop:0}, 'slow'); });

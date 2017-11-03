@@ -58,7 +58,7 @@ function getAge(dateString) {
 
   if ( (age.years > 0) && (age.months > 0) && (age.days > 0) )
     /*ageString = age.years + yearString + ", " + age.months + monthString + ", and " + age.days + dayString;*/
-    ageString = age.years + yearString + ", " + age.months + monthString + " and " + age.days + dayString;
+    ageString = age.years + yearString + " and " + age.months + monthString;
   else if ( (age.years == 0) && (age.months == 0) && (age.days > 0) )
     ageString = "Only " + age.days + dayString;
   else if ( (age.years > 0) && (age.months == 0) && (age.days == 0) )

@@ -197,16 +197,15 @@ $(function () {
     }
 }, 100);
 	//ending of animation of preloader
-	
+	  
 //fetching all company names and listing out in website
 	var companies = ["Aarvee Assoc.png","ADP.jpg","Alacriti.png","Amara Raja.jpg","Amazon.png","Biocon.jpg","BOSCH.jpg",
-						  "CA.jpg","Cadence.jpg","Capgemini.png","CGG.jpg","Cipla.jpg","Crypsis.png","CtrlS.jpg","Cummins.png","DhruvSoft.jpg",
-						  "Divami Software.png","Efftronics.png","FMC.png","Fony.png","HETERO.jpg","IBM.png","Infosys.jpg",
+						  "CA.jpg","Cadence.jpg","Capgemini.png","CGG.jpg","Cipla.jpg","Crypsis.png","CtrlS.jpg","Cummins.png","DhruvSoft.png","Discovery Labs.jpg","Divami Design.png","Efftronics.png","Egnify.png","Evibe.in.png","FMC.png","Fony.png","HETERO.jpg","IBM.png","INFOLOGITECH.JPG","Infosys.png",
 						  "Intone Networks.jpg","ITC.jpg","Kony Solutions.jpg","Logical People.png","Lumos.jpg","Mahindra.jpg",
-						  "MAQ.png","Meil.png","Micropyramid.png","MOLD TEH.jpg","MPHASIS.jpg","MRF.jpg","Musigma.jpg","Osmosys.jpg",
+						  "MAQ.png","Meil.png","Micropyramid.png","MOLD TEH.jpg","MPHASIS.jpg","MRF.jpg","Musigma.jpg","NFTDC.gif","NISUM.jpg","Osmosys.jpg",
 						  "Polmon.jpg","PORTWARE.jpg","PurpleTalk.jpg","RAMBOLL.jpg","RightDoctors.png","Rithwik Projects.png",
 						  "RMC Readymix.jpg","SAP.jpg","Sentini Geosol.png","SRC Technik.jpg","SVK Systems.jpg","TCS.jpg",
-						  "Tech Mahindra.png","TESSOLVE.jpg","ThoughtWorks.png","TOSHIBA.jpg","TVS Sundaram.jpg","Vasar Labs.jpg",
+						  "Tech Mahindra.png","TESSOLVE.jpg","ThoughtWorks.png","TOSHIBA.jpg","Tvisha.png","TVS Sundaram.jpg","Vasar Labs.jpg",
 						  "Vistex.png","VitWit.png","Way2Online.jpg","WIPRO.jpg","ZenQ.jpg"];
 		//listing our and showing on page by for loop		
 		for (i = 0; i < companies.length; i++) {

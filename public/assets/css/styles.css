@@ -295,7 +295,7 @@ ul.custom-list-style li {
   margin-bottom: 20px;
 }
 .nav > li > a {
-  font-size: 13px;
+  font-size: 16px;
 }
 .nav > li > a:focus,
 .nav > li > a:hover {
@@ -897,7 +897,7 @@ ul.custom-list-style li {
 }
 .footer .footer-content {
   padding: 30px 0;
-  font-size: 12px;
+  font-size: 14px;
   min-height: 300px;
 }
 .footer .footer-content .footer-col .footer-col-inner {
@@ -913,7 +913,7 @@ ul.custom-list-style li {
 }
 .footer .footer-content .footer-col li {
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .footer .footer-content .footer-col a {
   color: black;
@@ -953,7 +953,7 @@ ul.custom-list-style li {
   padding: 5px 0;
 }
 .footer .bottom-bar .copyright {
-  font-size: 11px;
+  font-size: 12px;
   color: #dcdcdc;
   line-height: 3;
 }
@@ -2004,7 +2004,7 @@ ul.custom-list-style li {
    
   }
   body {
-    font-size: 13px;
+    font-size: 15px;
   }
   .wrapper {
     min-height: 100%;

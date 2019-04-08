@@ -26,7 +26,7 @@
             <link rel="stylesheet" href="assets/plugins/pretty-photo/css/prettyPhoto.css">
             <!-- Theme CSS -->  
             <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-            
+            <script type="text/javascript" src="assets/js/expcal.js"></script> 
          </head>
          <body class="home-page">
             <div class="wrapper">
@@ -149,300 +149,194 @@
                <!--//main-nav-->
                <!-- ******CONTENT****** -->
                <div class="content container">
-                  <!--<div id="promo-slider" class="slider flexslider" style="margin-top:5px;">
-                     <ul class="slides">
-                         <li>
-                     	<img class="img-rounded" src="assets/images/english/slide-1.jpg"  alt="" height="400px;"/>
-                         </li>
-                     	  <li>
-                     	<img class="img-rounded" src="assets/images/english/slide-2.jpg"  alt="" height="400px;"/>
-                         </li>
-                           <li>
-                     	<img class="img-rounded" src="assets/images/english/slide-3.jpg"  alt="" height="400px;"/>
-                         </li>
-                           <li>
-                     	<img class="img-rounded" src="assets/images/english/slide-4.jpg"  alt="" height="400px;"/>
-                         </li>
-                           <li>
-                     	<img class="img-rounded" src="assets/images/english/slide-5.jpg"  alt="" height="400px;"/>
-                         </li>
-                          <li>
-                     	<img class="img-rounded" src="assets/images/english/slide-6.jpg"  alt="" height="400px;"/>
-                         </li>
-                           <li>
-                     	<img class="img-rounded" src="assets/images/english/slide-7.jpg"  alt="" height="400px;"/>
-                         </li>
-                     
-                     </ul>
-                        	</div><!--//flexslider-->
                   <div class="page-wrapper">
                      <header class="page-heading clearfix">
-                        <h1 class="heading-title pull-left" style="color:#801316;">English</h1>
+                        <h1 class="heading-title pull-left">Chemistry</h1>
                         <div class="breadcrumbs pull-right">
                            <ul class="breadcrumbs-list">
                               <li class="breadcrumbs-label">You are here:</li>
                               <li><a href="index.html">Home</a><i class="fa fa-angle-right"></i></li>
                               <li><a href="departments.html">Departments</a><i class="fa fa-angle-right"></i></li>
-                              <li><a href="hss.html">Humanities and Social Sciencies</a><i class="fa fa-angle-right"></i></li>
-                              <li><a href="english.html">English</a><i class="fa fa-angle-right"></i></li>
-                              <li class="current">Faculty</a>
+                              <li><a href="chemistry.html">Chemistry</a><i class="fa fa-angle-right"></i></li>
+                              <li><a href="chemistry-faculty.html">Faculty</a></li>
                            </ul>
                         </div>
                         <!--//breadcrumbs-->
                      </header>
                      <div class="page-content">
-                        <aside class="page-sidebar col-md-2 col-sm-3 affix-top">
-                           <section style="border:1px solid #e3e3e3;">
-                              <ul class="nav nav-pills nav-stacked">
-                                 <li><a href="english.html">About</a></li>
-                                 <li><a href="english-news.html">News & Updates</a></li>
-                                 <li class="active"><a>Faculty</a></li>
+                        <div class="row page-row">
+                           <aside class="page-sidebar col-md-3 col-sm-3 affix-top">
+                              <section class="widget well">
+                                 <ul class="nav">
+                                    <li><a>Dr. Y Rajeshwar Rao</a></li>
+                                    <li class="active"><a>Dr. Ravi Varala</a></li>
+                                    
+                                    <li><a>Dr. K. Pavani</a></li>
+                                    
                                  
-                                 <li><a href="curricula.html">Curricula</a></li>
-                              </ul>
-                           </section>
-                           <!--//widget-->
-                        </aside>
-                        <!--//page-sidebar-->
-                        <div class="content-wrapper col-md-10 col-sm-8">
-                           <h1 class="no-margin-top has-divider text-highlight" style="color:#800517;">Faculty</h1>
-                           <div class="row">
-                              <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" id="logo" src="assets/images/staff/Gujjari-Shankar.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9" style="padding-bottom:5px;">
-                                       <h4 style="margin-top:-2px;"><a href="english-faculty-shankarprofile.html">Gujjari Shankar</a><br><small>M.A.(EFLU), UGC-NET, APSET, (Ph.D)*</small></h4>
-                                       <p style="margin-top:-5px;"><strong>Head of the Department</strong></p>
-                                       <!-- Assistant Professor<br>
-                                          <strong>Email:</strong> gujjarishan1502@gmail.com<br>
-                                          <strong>Areas of Interest: </strong>Indian and Western literature, Percolation of technology in ELT					
-                                          </p>-->
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Assistant Professor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:gujjarishan1502@gmail.com</div>
+				    <li><a>Dr. Shobha Devi</a></li>
+				    <li><a>Dr. B. Srinivas</a></li>
+				   <li><a>Dr. Sridhar Reddy C</a></li>
+				     <li><a>R Shrikanth</a></li>
+				    <li><a>Swetha G</a></li>
+				   
+				     <li><a>Dr. S.Vittal</a></li>
+				    <li><a href="chemistry-faculty-profile_Dr_Kashanna.html">Dr. J. Kashanna</a></li>
+                                    <li><a>T. Madhusudhan Reddy</a></li>
+                                 </ul>
+                                 </ul>                    
+                              </section>
+                              <!--//widget-->
+                           </aside>
+                           <!--//page-sidebar-->
+                           <div class="content-wrapper col-md-9 col-sm-9">
+                              <div class="page-row">
+                                 <div class="row">
+                                    <div  class="col-md-12 col-sm-12">
+                                       <div class="row" style="margin-top:5px;">
+                                          <div class="col-md-2"align="left"> <img style="border-radius: 10px 10px 10px 10px;" width="150" id="logo" src="assets/images/staff/srihari.jpg" alt="Logo"></div>
+                                          <div class="col-md-10 col-md-pull-0" style="padding-left: 20px;">
+                                             <h2 class="no-margin-top text-highlight"> Prof.Somu Srihari </h2>
+                                             <h4 class="no-margin-top text-highlight">Administrative Officer</h4>
+                                             <!--<h5 style="line-height:150%;"class="no-margin-top text-highlight">Commissioner of Intermediate Education & Secretary, <br>Telangana State Board of Intermediate Telangana State.</h5>-->
+                                          </div>
+                                          <div class="col-md-9" style="padding-left: 20px;">
+                                             <div class="row">
+                                                <div class="col-md-3"><strong><i class="fa fa-university" aria-hidden="true"></i> Education</strong></div>
+                                                <div class="col-md-9 col-md-pull-1">: Ph.D (Chemistry)</div>
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-3"><strong><i class="fa fa-envelope" aria-hidden="true"></i> Email</strong></div>
+                                                <div class="col-md-9 col-md-pull-1" >: ao@rgukt.ac.in, sriharisomu@yahoo.co.in</div>
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-3"><strong><i class="fa fa-phone" aria-hidden="true"></i> Phone</strong></div>
+                                                <div class="col-md-9 col-md-pull-1">: 040 – 24655915, 24655927</div>
+                                             </div>
+                                             <div class="row">
+                                                <div class="col-md-3"><strong> Experience</strong></div>
+                                                <div class="col-md-9 col-md-pull-1">: 33 Years (1979 - 2012)<br>&nbsp Kakatiya University, Warangal<br>&nbsp Assistant Professor (1979-1992)<br>&nbsp Associate Professor (1992 - 2000)<br>&nbsp Professor (2000 - 2012)</div>
+                                             </div>
+                                          </div>
                                        </div>
-                                      
+                                       <p class="text-justify">
+                                       <p>
+                                       <h6><strong>Academic Accomplishments:</strong></h6>
+                                       <Ol type="i">
+                                          <li>No. of books/articles authored/co-authored in Chemistry & Environmental Chemistry: 09</li>
+                                          <li>Teaching at Cleveland State University, Cleveland, Ohio, USA.</li>
+                                       </ol>
+                                       <h6><strong>Research accomplishments:</strong></h6>
+                                       <ol type="i">
+                                          <li>No. of Ph. D's Provided: 17</li>
+                                          <li>No. of M.Phil's Provided: 03</li>
+                                          <li>No. of research publications: 42 (including those published in the world's top chemical journals like Journal  of American Chemical Society, Inorganic Chemistry)</li>
+                                          <li>Carried out post-doctoral researches during 1986-88 at Cleveland State University, Cleveland, Ohio, USA.</li>
+                                       </ol>
+                                       </p> 
+                                       <p>
+                                       <h6><strong>Professional Accomplishments:</strong></h6>
+                                       <ol type="i">
+                                          <li>
+                                             Visiting Professor at
+                                             <ol type="a">
+                                                <li>Sant Gadge Baba Amravati University, Amravati, Maharashtra</li>
+                                                <li>Sri Venkateswara University, Tirupathi</li>
+                                                <li>Acharya Nagarjuna University, Nagarjuna Nagar</li>
+                                                <li>Sri Sathya Sai Institute of Higher Learning, Prasanthi Nilayam</li>
+                                             </ol>
+                                          </li>
+                                          <li>Resource Person in Chemistry for Academic Staff colleges of all Andhra Pradesh and Telangana State Universities and a few other state Universities of Indida.</li>
+                                       </ol>
+                                       </p> 
+                                       <p>
+                                       <h6><strong>Academic Positions Held:</strong></h6>
+                                       <ol type="i">
+                                       <li>Chair Person, Boards of Studies in Chemistry and Environmental Chemistry, Kakatiya University.</li>
+                                       <li>Dean, Academic Audit, Kakatiya University.</li>
+                                       <li>
+                                          Member, Boards of Studies in Chemistry of
+                                          <ol type="a">
+                                             <li>Gulbarga University, Gulbarga</li>
+                                             <li>Osmania University, Hyderabad</li>
+                                             <li>Andhra University, Visakhapatnam</li>
+                                             <li>Jawaharlal Nehru Technological University, Hyderabad</li>
+                                             <li>Jawaharlal Nehru Technological University, Anantapur.</li>
+                                             <li>Sri Krishnadevaraya University, Anantapur</li>
+                                             <li>Adikavi Nannaya University, Rajahmundry</li>
+                                             <li>Sri Sathya Sai Institute of Higher Learning, Prasanthi Nilayam</li>
+                                             <li>Chaitanya Post Graduate College, Warangal</li>
+                                          </ol>
+                                       </li>
+                                       </p> 
+                                       <p>
+                                       <h6 style=" line-height: 150%;"><strong>Administrative Positions Held:</strong></h6>
+                                       <ol type="i">
+                                          <li>Head, Department of Chemistry, Kakatiya University.</li>
+                                          <li>Director, Research & Development Center, Kakatiya University</li>
+                                       </ol>
+                                       </p> 
+                                       <p>
+                                       <h6><strong>Honours:</strong></h6>
+                                       <ul>
+                                          <li>Fellow of Andhra Pradesh and Telangana Academics of Sciences</li>
+                                       </ul>
+                                       </p> 
+                                       <p>
+                                       <h6><strong>Awards:</strong></h6>
+                                       <ul>
+                                          <li>State Best Teacher Award</li>
+                                       </ul>
+                                       </p> 
+                                       <!-- <h4 class="no-margin-top has-divider text-highlight"><br><br>
+                                          Administrative Officer's Peshi
+                                          </h4>
+                                          <div class="row" style="margin-top:5px;">
+                                          <!--<div class="col-md-6">
+                                          <div class="row" style="padding-top:5px;padding-bottom:5px;padding-left:5px;">
+                                          <div class="row col-md-3"><img height="140" width="120" id="logo" src="assets/images/staff/noimagem.png" alt="Logo"> </div>
+                                          <div class="col-md-9 col-md-push-1"><h4>S.Shiva Krishna</h4>
+                                          <!--<div class="row">
+                                          <div class="col-md-4"><strong>Designation</strong></div><div class="col-md-8">:SI of Police</div></div>-->
+                                       <!--<div class="row">
+                                          <div class="col-md-4"><strong>Email</strong></div><div class="col-md-8">: 
+                                          v.sayanrao@gmail.com</div></div>
+                                          
+                                          <div class="row">
+                                          <!--<div class="col-md-4"><strong><i class="fa fa-phone"></i> Phone</strong></div><div class="col-md-8">: 24-10-2008</div></div>-->
+                                       <!--<div class="row">
+                                          <div class="col-md-5"><strong>Experience</strong></div><div class="col-md-7 col-md-pull-1">:<script>document.write(getAge('10/24/2008'));</script></div></div>
+                                                                          <div class="row">
+                                          <div class="col-md-5"><strong><i class="fa fa-phone"></i> Mobile</strong></div><div class="col-md-7 col-md-pull-1">:9492301704</div></div>-->
                                     </div>
                                  </div>
                               </div>
                               <!--<div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/noimagef.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"> <a>Varikolu Rajitha</a><br><small>M.A, B.Ed (OU), SET</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Assistant Professor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:rajithavarikolu1@gmail.com</div>
-                                       </div>
-                                      
-                                    </div>
-                                 </div>
-                              </div>-->
-				<div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" id="logo" src="assets/images/staff/shravan.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"><a>Shravan. S</a><br><small>M.A.(OU), PGDTE, SET, (Ph.D)*</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Assistant Professor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:shr1eflu@gmail.com</div>
-                                       </div>
-                                      
-                                    </div>
-                                 </div>
-                           </div>
-                           <br>
-                           <div class="row">
-                              <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/kkrishnaprasad.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"> <a>K. Krushna Prasad</a><br><small>M.A.(EFLU), UGC-NET, APSET, (Ph.D)*</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Assistant Professor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:krushnaprasadkummari@gmail.com</div>
-                                       </div>
-                                      
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/lukumadevi.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"> <a>Ms. Lakuma Devi I</a><br><small>M.A, M.Phil (EFLU), PGDTE, SET, (Ph.D)*</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Assistant Professor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:lakuma.i@gmail.com</div>
-                                       </div>
-                                      
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <br>
-                           <div class="row">
-                               <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" id="logo" src="assets/images/staff/kodurivenkateshwarlu.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"><a>Koduri Venkateshwarlu</a><br><small>M.A.,SET</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Assistant Professor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:warluenglish@gmail.com</div>
-                                       </div>
-                                      
-                                    </div>
-                                 </div>
-                              </div>
-                             <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" id="logo" src="assets/images/staff/noimagem.png"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"><a>A.Vijay Kumar</a><br><small>M.A, B.Ed</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Mentor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:vijaykumar.apsingikar@gmail.com</div>
-                                       </div>
-                                      
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <br>
-                           
-                           
-                           <div class="row">
-                              <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/kavitha.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"> <a>K.Kavitha</a><br><small>M.A.</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Mentor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:kavithargukt@gmail.com</div>
-                                       </div>
+                                 <div class="row" style="padding-top:5px;padding-bottom:5px;padding-left:5px;">
+                                    <div class="row col-md-4"><img height="140" width="120" id="logo" src="assets/images/staff/noimagem.png" alt="Logo"> </div>
+                                    <div class="col-md-8"><h4>D. Ganesh Varma</h4>
+                                 <div class="row">
+                                 <div class="col-md-5"><strong>Designation</strong></div><div class="col-md-7 col-md-pull-1">:AAO</div></div>
+                                 <div class="row">
+                                 <div class="col-md-5"><strong>Email</strong></div><div class="col-md-7 col-md-pull-1">:aao@rgukt.ac.in</div></div>
+                                 <div class="row">
+                                 <div class="col-md-5"><strong>Date of Join</strong></div><div class="col-md-7 col-md-pull-1">:31-07-2018</div></div>
+                                 <div class="row">
+                                 <div class="col-md-5"><strong>Experience</strong></div><div class="col-md-7 col-md-pull-1">:<script>document.write(getAge('07/31/2018'));</script></div></div>
                                        
                                     </div>
                                  </div>
-                              </div>
-                              <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/vijayn.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"> <a>N. Vijaykumar</a><br><small>M.A, PGDTE</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Mentor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:vijaykumar.neerudu@gmail.com</div>
-                                       </div>
-                                      
-                                    </div>
-                                 </div>
-                              </div>
+                                 </div>-->
                            </div>
-                           <br>
-                           <div class="row">
-                              <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/vasanth.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"> <a>D. Vasantha Babu</a><br><small>M.A, B.Ed</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Mentor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:vasanth.dumpala@gmail.com</div>
-                                       </div>
-                                      
-                                    </div>
-                                 </div>
-                              </div>
-                             <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" src="assets/images/staff/srinivas.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"> <a>A.Srinivas</a><br><small>M.A, PGDTE</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Mentor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:sreenivas3636@gmail.com</div>
-                                       </div>
-                                       
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <br>
-                           <div class="row">
-                              <div class="col-md-6 focusover">
-                                 <div class="row" style="padding-top:15px;padding-bottom:15px;">
-                                    <div class="col-md-3">
-                                       <div><img style="border-radius: 0px 0px 0px 0px;border:1px solid #24547E;" height="120" width="100" id="logo" src="assets/images/staff/prabhakar.jpg"></div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <h4 style="margin-top:-2px;"><a>U.Prabhakar Rao</a><br><small>M.A, B.Ed</small></h4>
-                                       <p style="margin-top:-10px;margin-bottom:-2px;">Mentor</p>
-                                       <div class="row">
-                                          <div class="col-md-2"><strong>Email</strong></div>
-                                          <div class="col-md-10">:prabhu.utukuru@gmail.com</div>
-                                       </div>
-                                       
-                                    </div>
-                                 </div>
-                              </div>
-                              
-                           </div>
-				<br>
-                           <!--//page-row-->                                                                 
+                           <!--//content-wrapper-->                    
                         </div>
-                        <!--//content-wrapper   
-                           <aside class="page-sidebar col-md-2 col-sm-3 affix-top">                    
-                                                    <section class="widget well">
-                                                        <ul class="nav">
-                           	<li><a href="curricula.html">Curricula</a></li>
-                           	<li class="active"><a>Faculty</a></li>
-                           	<li><a href="english-staff.html">Staff</a></li>
-                           	</ul>                     
-                                                    </section><!--//widget
-                                                </aside>--><!--//page-sidebar-->                 
+                        <!--//page-row-->
                      </div>
-                     <!--//page-row-->
+                     <!--//page-content-->
                   </div>
-                  <!--//page-content-->
+                  <!--//page--> 
                </div>
-               <!--//page--> 
-            </div>
-            <!--//content-->
+               <!--//content-->
             </div>
             <!--//wrapper-->
             <!-- ******FOOTER****** --> 
@@ -557,7 +451,7 @@
             <script type="text/javascript" src="assets/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
             <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
             <script type="text/javascript" src="assets/plugins/jflickrfeed/jflickrfeed.min.js"></script> 
-            <script type="text/javascript" src="assets/js/main.js"></script>            
+            <script type="text/javascript" src="assets/js/main.js"></script>   
          </body>
       </html>
 

@@ -14,6 +14,12 @@
 		<a class="item" href="departmentandcourses.html">Departments and Courses</a>    
 		<a class="item" href="job-notification-form.html">Job Notification Form</a> 
  	</div> 
+	<div class="header">Students</div>
+ 	<div class="menu">
+ 		<a class="item" href="rules-and-procedures.html">Rules and Procedures</a>    
+		<a class="item" href="placement-policy.html">Placement Policy</a>    
+	</div> 
+	
  </div>
     <div class="item">
     <i class="Database icon"></i>
@@ -60,6 +66,13 @@
 		<a class="item" href="job-notification-form.html">Job Notification Form</a>    
     </div>
   </div>
+    <div class="ui  dropdown link item" id="studentsDropdown">
+    Students<i class="caret down icon"></i>
+    <div class="menu backColor700" >
+		<a class="item" href="rules-and-procedures.html">Rules and Procedures</a>    
+		<a class="item" href="placement-policy.html">Placement Policy</a>    
+		</div>
+  </div>
   <div class="ui dropdown link item" id="recordsDropdown">
   	Records<i class="caret down icon"></i>
   	<div class="menu backColor700">
@@ -99,6 +112,7 @@
 <script type="text/javascript" >
 
 		$('#recruitersDropdown').dropdown({on: 'hover'});
+		$('#studentsDropdown').dropdown({on: 'hover'});
 		$('#recordsDropdown').dropdown({on: 'hover'});
 		$('#campusLifeDropdown').dropdown({on: 'hover'});
 		$(".sideBar").click(function() {$('.ui.sidebar').sidebar('toggle'); });

@@ -1,0 +1,49 @@
+#application: rguktwebsite
+#application: testrguktwebsite
+
+#version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+# Handlers match in order, put above the default handler.
+handlers:
+- url: /(.*)/
+  secure: always
+  static_files: public/\1/index.html
+  upload: public/(.*)/index.html
+
+- url: /(.+)
+  secure: always
+  static_files: public/\1
+  upload: public/(.*)
+
+# site root
+- url: /
+  secure: always
+  static_files: public/index.html
+  upload: public/index.html
+
+
+# For folders without trailing slashes - ideally a 301 redirect, but we're static & it isn't 2004
+- url: /([^\.]+)([^/])
+  secure: always
+  static_files: assets/\1\2/index.html
+  upload: assets/(.+)
+
+# Redirect Everything else
+- url: /(.+)
+  secure: always
+  static_files: assets/\1
+  upload: assets/(.+)
+
+
+- url: /.*
+  secure: always
+  script: guestbook.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest

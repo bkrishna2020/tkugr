@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-#application: rguktwebsite
-#application: testrguktwebsite
-
-#version: 1
-=======
-application: rguktwebsite
-#application: testrguktwebsite
-
-version: 1
->>>>>>> e23c4899192eaf75378af310d4e9e983191b94f2
 runtime: python27
 api_version: 1
 threadsafe: true

@@ -115,6 +115,9 @@ $('#GuidelinesTar').click(function () { goThere("#GuidelinesTar"); })
 $('#SIP').click(function () { goThere("#SIPTar"); })
 $('#SIPTar').click(function () { goThere("#SIPTar"); })
 
+
+$('#ay19-20').click(function () {goThere("#ay19-20Tar")})
+$('#ay19-20Tar').click(function () {goThere("#ay19-20Tar")})
 $('#ay18-19').click(function () {goThere("#ay18-19Tar")})
 $('#ay18-19Tar').click(function () {goThere("#ay18-19Tar")})
 $('#ay17-18').click(function () {goThere("#ay17-18Tar")})

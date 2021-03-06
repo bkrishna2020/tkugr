@@ -2156,6 +2156,85 @@ a[aria-expanded="true"] {
 #sidebar ul li a[aria-expanded="true"]{
 	color:white;}
 
+#sidebar1 {
+    min-width: 400px;
+    max-width: 400px;
+    background: #F2F1EB;
+    transition: all 0.3s;
+    
+}
+#sidebar1 a{
+color:black;
+}
+#sidebar1 ul li a .fa{
+	color:black;}
+
+
+
+
+#sidebar1.active {
+    margin-left: -250px;
+}
+
+#sidebar1 .sidebar1-header {
+    padding: 0px;
+    background: #00695c;
+}
+
+#sidebar1 ul.components {
+    padding: 0px 0;
+    border-bottom: 0px solid #47748b;
+}
+
+#sidebar1 ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar1 ul ul a{
+	color:white;}
+#sidebar1 ul ul a .fa{
+	color:white;}
+
+#sidebar1 ul li{
+	margin-bottom:0px;
+	
+}
+
+#sidebar1 ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;  
+}
+
+#sidebar1 ul li a:hover {
+    color: #fff;
+    background:    #004d44;
+    text-decoration: none;
+}
+#sidebar1 ul li a:hover .fa{
+    color: #fff;
+    
+}
+#sidebar1 ul li.active>a,
+a[aria-expanded="true"] {
+    color: white;
+    background: #00695c;
+}
+
+
+#sidebar1 ul li.active>a i.fa{
+    color: white;
+    
+}
+
+#sidebar1 ul li a[aria-expanded="true"] i.fa {
+    color: white;  
+}
+
+#sidebar1 ul li a[aria-expanded="true"]{
+	color:white;}
+
 .dropdown-toggle::after {
     display: block;
     position: absolute;

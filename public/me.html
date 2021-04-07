@@ -434,7 +434,7 @@ competitions and have won distinguished prizes and awards.
                            </div>
                            <!--//content-wrapper--> 
                            <div class="col-md-3">
-                              <div class="panel panel-default" style="height:400px;">
+                              <div class="panel panel-default">
                                  <div class="panel-heading">
                                     <b>News & Updates</b>
                                  </div>
@@ -442,8 +442,15 @@ competitions and have won distinguished prizes and awards.
                                     <div class="row">
                                        <div class="col-xs-12">
                                           <ul class="demo2">
-					     <li class="news-item"> <a>Will be updated Soon!!</a></li>
-                                             <li class="news-item"> <a>Will be updated Soon!!</a></li>
+					     <li class="news-item">  <a href="/assets/images/me/event6.jpg" target="_blank">Short Term Course(STC-2021) on Emerging Technologies in Processing of Advanced Materials and its Characterization organized by Department of Mechanical Engg, RGUKT-Basar, from 4-01-2021 to 8-01-2021.</a></li>
+                                             <li class="news-item"> <a href="/assets/images/me/event5.jpg" target="_blank">Mentor Hours, Mechanical IN and OUT, a virtual interaction talk by Harsh.Ch (B14), Design Engineer-Cyient. on 10th June 2020</a></li>
+					     <li class="news-item"> <a href="/assets/images/me/event9.png" target="_blank">Virtual meet -What If I Were You, Road Map to Internship,  by Harsh.Ch (B14), Design Engineer-Cyient, on 1st May 2020</a></li>
+					     <li class="news-item"> <a href="/assets/images/me/event2.jpg" target="_blank">An interaction talk was given by  Srinivas.B (B09) , Design Engineer(R&D) at Stryker, on the topic Skills for Employment- Interview Tips thru Instagram, on 14th April 2020</a></li>
+					     <li class="news-item"> <a href="/assets/images/me/event1.jpg" target="_blank">Alumni talk - Road to be an Efficient Engineer, by M.Suresh(B08 Batch), Assistant Engineer-TSGENCO, on 4th Jan 2020</a></li>
+					     <li class="news-item"> <a href="/assets/images/me/event8.pdf" target="_blank">Training and skill development programme on CNC machining- Department Outreach Program - For ITI (boys), Nizamabad was conducted by mechanical department -from 15-07-2019 to 20-07-2019</a></li>
+					    <li class="news-item"> <a href="/assets/images/me/event3.pdf" target="_blank">During the Techfest 2019-20, a contraption event was successfully performed by the department of mechanical engineering</a></li>
+					<li class="news-item"> <a><a href="/assets/images/me/event4.pdf" target="_blank">FDP on product design engineer, Mechanical Engg dept was organized with NASSCOM at RGUKT Basar from 03-4-2018 to 07-04-2018</a></a></li>
+						<li class="news-item">  <a href="/assets/images/me/event7.jpg" target="_blank">Talk show with  Talent,  Can Civils be a better option after B.Tech, by A. Subhash(B09 Batch), DSP-AP on 4th Aug2018</a></li>
                                              
                                           </ul>
                                        </div>
@@ -557,16 +564,55 @@ competitions and have won distinguished prizes and awards.
     
  
     <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/bootstrap-hover-dropdown.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="assets/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jflickrfeed/jflickrfeed.min.js"></script> 
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <!-- Javascript -->          
+     <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
+            <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+            <script type="text/javascript" src="assets/plugins/bootstrap-hover-dropdown.min.js"></script> 
+            <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+            <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+            <script type="text/javascript" src="assets/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
+            <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+            <script type="text/javascript" src="assets/plugins/jflickrfeed/jflickrfeed.min.js"></script> 
+            
+            <script type="text/javascript" src="assets/js/main.js"></script>  
+		<script src="../assets/plugins/scripts/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script> 
+            <script type="text/javascript">
+               $(function () {
+                   $(".demo1").bootstrapNews({
+                       newsPerPage: 3,
+                       autoplay: true,
+               pauseOnHover:true,
+                       direction: 'up',
+                       newsTickerInterval: 4000,
+                       onToDo: function () {
+                           //console.log(this);
+                       }
+                   });
+               
+               $(".demo2").bootstrapNews({
+                       newsPerPage: 20,
+                       autoplay: true,
+               pauseOnHover: true,
+               navigation: false,
+                       direction: 'up',
+                       newsTickerInterval: 2500,
+                       onToDo: function () {
+                           //console.log(this);
+                       }
+                   });
+               
+                   $("#demo3").bootstrapNews({
+                       newsPerPage: 3,
+                       autoplay: false,
+                       
+                       onToDo: function () {
+                           //console.log(this);
+                       }
+                   });
+               });
+            </script>               
+          
 </body>
 </html> 
 

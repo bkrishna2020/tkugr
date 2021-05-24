@@ -2078,8 +2078,8 @@ ul.custom-list-style li {
 
 
 #sidebar {
-    /*min-width: 250px;
-    max-width: 250px;*/
+    min-width: 250px;
+    max-width: 250px;
     background: #F2F1EB;
     transition: all 0.3s;
     

@@ -20,6 +20,17 @@
     <link rel="stylesheet" href="assets/plugins/pretty-photo/css/prettyPhoto.css"> 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+   <script> 
+$(function(){
+  $("#header").load("assets/images/ece/news-updates.html"); 
+ 
+});
+</script> 
 </head> 
 
 <body class="home-page">
@@ -236,7 +247,7 @@
                                        <a>Department Layout</a>
                                      </li>
 					<li>
-                                       <a><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i> Youtube Channel</a>
+                                       <a href="https://www.youtube.com/channel/UCyDV-4coMjnHDYx4EtXUYLw" target="_blank"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i> Youtube Channel</a>
                                      </li>
                                  </ul>
                               </nav>
@@ -422,18 +433,14 @@
                            </div>
                            <!--//content-wrapper--> 
                            <div class="col-md-3">
-                              <div class="panel panel-default" style="height:400px;">
+                              <div class="panel panel-default">
                                  <div class="panel-heading">
                                     <b>News & Updates</b>
                                  </div>
                                  <div class="panel-body">
                                     <div class="row">
                                        <div class="col-xs-12">
-                                          <ul class="demo2">
-					     <li class="news-item"> <a>Will be updated Soon!!</a></li>
-                                             <li class="news-item"> <a>Will be updated Soon!!</a></li>
-                                             
-                                          </ul>
+                                          <div id="header"></div>
                                        </div>
                                     </div>
                                  </div>
